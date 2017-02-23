@@ -23,7 +23,16 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
+//Draw Pizza Base
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = true
+canvas.defaultBorderWidth = 25
+
+canvas.borderColor = Color(hue: 39, saturation: 100, brightness: 100, alpha: 100)
+canvas.fillColor = Color(hue: 53, saturation: 100, brightness: 100, alpha: 100)
+
+canvas.drawEllipse(centreX: 150, centreY: 150, width: 250, height: 250)
+
 
 /*:
  ## Template code
