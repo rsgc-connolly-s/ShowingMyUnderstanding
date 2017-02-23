@@ -31,12 +31,17 @@ let canvas = Canvas(width: 300, height: 300)
 
 //Create Blue Part
 canvas.drawShapesWithBorders = false
+canvas.lineColor = Color(hue: 205, saturation: 64, brightness: 75, alpha: 100)
+canvas.drawLine(fromX: 75, fromY: 75, toX: 75, toY: 225, lineWidth: 75)
 
-canvas.fillColor = Color(hue: 205, saturation: 64, brightness: 75, alpha: 100)
-canvas.drawEllipse(centreX: 75, centreY: 75, width: 75, height: 75)
-canvas.drawEllipse(centreX: 75, centreY: 225, width: 75, height: 75)
 
-canvas.drawRectangle(bottomLeftX: 38, bottomLeftY: 75, width: 75, height: 150)
+//Draw Pink Part
+canvas.drawShapesWithBorders = false
+
+canvas.lineColor = Color(hue: 365, saturation: 64, brightness: 75, alpha: 100)
+canvas.drawLine(fromX: 225, fromY: 75, toX: 225, toY: 225, lineWidth: 75)
+
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.

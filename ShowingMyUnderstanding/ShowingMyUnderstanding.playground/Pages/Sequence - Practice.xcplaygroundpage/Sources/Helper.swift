@@ -300,6 +300,7 @@ open class Canvas : CustomPlaygroundQuickLookable {
             
             
             // Make the new path
+            NSBezierPath.setDefaultLineCapStyle(NSLineCapStyle.roundLineCapStyle)
             let path = NSBezierPath()
             
             // Set width of border
