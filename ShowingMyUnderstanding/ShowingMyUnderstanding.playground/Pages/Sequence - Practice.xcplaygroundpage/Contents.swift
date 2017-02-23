@@ -29,9 +29,14 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
+//Create Blue Part
+canvas.drawShapesWithBorders = false
 
+canvas.fillColor = Color(hue: 205, saturation: 64, brightness: 75, alpha: 100)
+canvas.drawEllipse(centreX: 75, centreY: 75, width: 75, height: 75)
+canvas.drawEllipse(centreX: 75, centreY: 225, width: 75, height: 75)
 
+canvas.drawRectangle(bottomLeftX: 38, bottomLeftY: 75, width: 75, height: 150)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
