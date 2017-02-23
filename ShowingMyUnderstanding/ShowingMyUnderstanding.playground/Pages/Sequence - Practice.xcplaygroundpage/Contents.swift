@@ -42,6 +42,14 @@ canvas.lineColor = Color(hue: 365, saturation: 64, brightness: 75, alpha: 100)
 canvas.drawLine(fromX: 225, fromY: 75, toX: 225, toY: 225, lineWidth: 75)
 
 
+//Draw Middle part 
+canvas.drawShapesWithBorders = false
+
+canvas.lineColor = Color(hue: 365, saturation: 64, brightness: 75, alpha: 100)
+canvas.drawLine(fromX: 225, fromY: 225, toX: 150, toY: 75, lineWidth: 75)
+
+canvas.lineColor = Color(hue: 205, saturation: 64, brightness: 75, alpha: 100)
+canvas.drawLine(fromX: 75, fromY: 225, toX: 150, toY: 75, lineWidth: 75)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
