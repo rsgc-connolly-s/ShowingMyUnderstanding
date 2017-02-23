@@ -33,6 +33,17 @@ canvas.fillColor = Color(hue: 53, saturation: 100, brightness: 100, alpha: 100)
 
 canvas.drawEllipse(centreX: 150, centreY: 150, width: 250, height: 250)
 
+//Draw Pepperoni
+
+var x = random(from: 100, toButNotIncluding: canvas.width - 50)
+canvas.drawShapesWithBorders = false
+
+canvas.fillColor = Color(hue: 25, saturation: 100, brightness: 100, alpha: 100)
+canvas.drawEllipse(centreX: x, centreY: x, width: 25, height: 25)
+
+
+
+
 
 /*:
  ## Template code
