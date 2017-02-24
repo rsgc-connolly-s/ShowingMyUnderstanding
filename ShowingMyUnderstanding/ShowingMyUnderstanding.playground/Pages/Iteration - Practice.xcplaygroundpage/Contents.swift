@@ -28,8 +28,21 @@ import PlaygroundSupport
 
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
+canvas.drawShapesWithBorders = false
 
-// Replace this comment and add your code below...
+// Create Top Tracks
+for x in stride(from: 1, through: 275, by: 50){
+    for y in stride(from: 250, through: 25, by: -100){
+   canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 25, height: 10)
+    }
+}
+
+// Create Bottom Tracks
+for x in stride(from: 25, through: 300, by: 50){
+    for y in stride(from: 225, through: 1, by: -100){
+        canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 25, height: 10)
+    }
+}
 
 
 /*:
