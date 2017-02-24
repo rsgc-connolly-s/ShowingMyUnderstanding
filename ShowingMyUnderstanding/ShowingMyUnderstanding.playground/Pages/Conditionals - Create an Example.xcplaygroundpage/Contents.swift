@@ -19,7 +19,21 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Create the Different variables 
+// Create Leafs Score 
+var Leafs = random(from: 0, toButNotIncluding: 5)
+
+//Creat Habs Score 
+var Habs = random(from: 0, toButNotIncluding: 5)
+
+//Create Winner
+
+if Leafs > Habs {
+    print("LEAFS WIN!")
+} else {
+    print("HABS WIN!")
+}
+
+
 
 /*:
  ## Template code
