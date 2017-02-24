@@ -18,8 +18,24 @@ import PlaygroundSupport
 
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
+canvas.drawShapesWithBorders = false
 
-// Replace this comment and add your code below...
+// Create Red Squares
+for x in stride(from: 25, through: 300, by: 100){
+    for y in stride(from: 300, through: 50, by: -100){
+        canvas.fillColor = Color.red
+        canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 50, height: 50)
+    }
+}
+
+// Create Bottom Tracks
+for x in stride(from: 25, through: 300, by: 50){
+    for y in stride(from: 225, through: 125, by: -100){
+        canvas.fillColor = Color.blue
+        canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 25, height: 10)
+    }
+}
+
 
 /*:
  ## Template code
