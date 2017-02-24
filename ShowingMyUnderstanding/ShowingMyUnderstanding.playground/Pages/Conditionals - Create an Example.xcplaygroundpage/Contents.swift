@@ -29,8 +29,14 @@ var Habs = random(from: 0, toButNotIncluding: 5)
 
 if Leafs > Habs {
     print("LEAFS WIN!")
+    canvas.drawShapesWithFill = true
+    canvas.fillColor = Color.blue
+    canvas.drawRectangle(bottomLeftX: 100, bottomLeftY: 100, width: 100, height: 100)
 } else {
     print("HABS WIN!")
+    canvas.drawShapesWithFill = true
+    canvas.fillColor = Color.red
+    canvas.drawRectangle(bottomLeftX: 100, bottomLeftY: 100, width: 100, height: 100)
 }
 
 
