@@ -19,7 +19,7 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this command and add your code below...
+// Create the Different variables 
 
 /*:
  ## Template code
