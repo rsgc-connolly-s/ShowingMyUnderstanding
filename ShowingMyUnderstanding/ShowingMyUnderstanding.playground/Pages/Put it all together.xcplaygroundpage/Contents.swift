@@ -21,9 +21,23 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// 
+// Create Background 
+for x in stride(from: 1, through: 300, by: 100){
+    for y in stride(from: 1, through: 300, by: 100){
+        canvas.drawShapesWithBorders = true
+        canvas.borderColor = Color.white
+        canvas.defaultBorderWidth = 50
+        canvas.fillColor = Color.red
+        canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 100, height: 100)
+    }
+}
 
+//Decide Which Drawing to build
+let number = random(from: 0, toButNotIncluding: 2)
 
+//Draw Shape 
+
+if number==0
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
