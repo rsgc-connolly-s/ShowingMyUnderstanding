@@ -32,12 +32,36 @@ for x in stride(from: 1, through: 300, by: 100){
     }
 }
 
-//Decide Which Drawing to build
+//Decide Which Number to build
 let number = random(from: 0, toButNotIncluding: 2)
 
-//Draw Shape 
+//Draw Number
 
-if number==0
+if number == 0{
+    
+    //Draw 0
+    canvas.defaultBorderWidth = 35
+    canvas.drawShapesWithBorders = true
+    canvas.borderColor = Color.black
+    canvas.drawShapesWithFill = false
+    canvas.drawEllipse(centreX: 150, centreY: 150, width: 75, height: 115)
+}else{
+    
+    //draw 1
+    canvas.drawShapesWithBorders = false
+    canvas.drawShapesWithFill = true
+    canvas.fillColor = Color.black
+    canvas.defaultLineWidth = 45
+    
+    //draw middle of one
+    canvas.drawRectangle(bottomLeftX: 125, bottomLeftY: 75, width: 50, height: 150)
+    
+    //draw bottom of one
+    canvas.drawRectangle(bottomLeftX: 85, bottomLeftY: 50, width: 125, height: 35)
+    
+    //draw top of one
+    canvas.drawLine(fromX: 135, fromY: 205, toX: 90, toY: 180)
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
