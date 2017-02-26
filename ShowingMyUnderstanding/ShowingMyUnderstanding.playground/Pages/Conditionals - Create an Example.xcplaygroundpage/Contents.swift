@@ -19,14 +19,19 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Create Leafs Score 
+// Create Leafs Score
+
+//(Assignment Statement)
 var Leafs = random(from: 0, toButNotIncluding: 5)
 
 //Creat Habs Score 
+
+//(Assignment Statement)
 var Habs = random(from: 0, toButNotIncluding: 5)
 
 //Create Winner
 
+//(Comparison Operator)(Arithmetic Operator)
 if Leafs > Habs {
     print("LEAFS WIN!")
     canvas.drawShapesWithFill = true

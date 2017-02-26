@@ -31,6 +31,8 @@ let canvas = Canvas(width: 300, height: 300)
 canvas.drawShapesWithBorders = false
 
 // Create Top Tracks
+
+//(Creat Variables)
 for x in stride(from: 1, through: 275, by: 50){
     for y in stride(from: 250, through: 25, by: -100){
    canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 25, height: 10)
@@ -38,6 +40,7 @@ for x in stride(from: 1, through: 275, by: 50){
 }
 
 // Create Bottom Tracks
+//(Create Variable) 
 for x in stride(from: 25, through: 300, by: 50){
     for y in stride(from: 225, through: 1, by: -100){
         canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 25, height: 10)

@@ -22,6 +22,8 @@ import PlaygroundSupport
 let canvas = Canvas(width: 300, height: 300)
 
 // Create Background 
+
+//(Create Variable)
 for x in stride(from: 1, through: 300, by: 100){
     for y in stride(from: 1, through: 300, by: 100){
         canvas.drawShapesWithBorders = true
@@ -33,10 +35,13 @@ for x in stride(from: 1, through: 300, by: 100){
 }
 
 //Decide Which Number to build
+
+//(Assignment Statement)
 let number = random(from: 0, toButNotIncluding: 2)
 
 //Draw Number
 
+//(Comparison Operator)(Arithmetic Operator)
 if number == 0{
     
     //Draw 0
