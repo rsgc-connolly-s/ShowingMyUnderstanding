@@ -34,7 +34,7 @@ let number = random(from: 0, toButNotIncluding: 2)
 
 //if number is 0
 
-//(Comparison Operator)(Arithmetic Operator)
+//(Comparison Operator)
 if number == 0 {
     canvas.drawShapesWithFill = false
     canvas.drawEllipse(centreX: 100, centreY: 100, width: 100, height: 100)
@@ -42,7 +42,7 @@ if number == 0 {
 
 //if number is 1
 
-//(Comparison Operator)(Arithmetic Operator)
+//(Comparison Operator)
 if number == 1 {
     canvas.drawShapesWithFill = true
     canvas.drawEllipse(centreX: 100, centreY: 100, width: 100, height: 100)

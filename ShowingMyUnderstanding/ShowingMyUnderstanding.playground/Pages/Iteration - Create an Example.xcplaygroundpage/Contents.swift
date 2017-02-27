@@ -22,7 +22,7 @@ canvas.drawShapesWithBorders = false
 
 // Create Red Squares
 
-//(Create Varible)
+//(Using Varible)
 for x in stride(from: 25, through: 300, by: 100){
     for y in stride(from: 300, through: 50, by: -100){
         canvas.fillColor = Color.red
@@ -30,9 +30,9 @@ for x in stride(from: 25, through: 300, by: 100){
     }
 }
 
-// Create Bottom Tracks
+// Create Blue Squares
 
-//(Create Variable)
+//(Using Variable)
 for x in stride(from: 25, through: 300, by: 50){
     for y in stride(from: 225, through: 125, by: -100){
         canvas.fillColor = Color.blue

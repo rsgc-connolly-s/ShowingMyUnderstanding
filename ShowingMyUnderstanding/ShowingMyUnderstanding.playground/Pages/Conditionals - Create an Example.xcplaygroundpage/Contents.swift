@@ -31,7 +31,7 @@ var Habs = random(from: 0, toButNotIncluding: 5)
 
 //Create Winner
 
-//(Comparison Operator)(Arithmetic Operator)
+//(Comparison Operator)
 if Leafs > Habs {
     print("LEAFS WIN!")
     canvas.drawShapesWithFill = true

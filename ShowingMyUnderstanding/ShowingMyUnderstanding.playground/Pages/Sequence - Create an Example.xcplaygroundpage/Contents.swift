@@ -37,7 +37,7 @@ canvas.drawEllipse(centreX: 150, centreY: 150, width: 250, height: 250)
 //Draw Pepperoni
 canvas.drawShapesWithBorders = false
 
-//Using Variables
+//(Using Variables)(Assignment Statements) 
 for y in stride(from: 50, through: 250, by: 25){
 var RX = random(from: 50, toButNotIncluding: 175)
 canvas.fillColor = Color(hue: 25, saturation: 100, brightness: 100, alpha: 100)

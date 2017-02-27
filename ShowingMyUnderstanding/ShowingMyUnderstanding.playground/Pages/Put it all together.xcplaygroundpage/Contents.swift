@@ -41,7 +41,7 @@ let number = random(from: 0, toButNotIncluding: 2)
 
 //Draw Number
 
-//(Comparison Operator)(Arithmetic Operator)
+//(Comparison Operator)
 if number == 0{
     
     //Draw 0
